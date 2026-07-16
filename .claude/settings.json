@@ -1,0 +1,38 @@
+{
+  "sandbox": {
+    "enabled": false
+  },
+  "permissions": {
+    "allow": [
+      "Write",
+      "Edit",
+      "Read(~/.claude/plugins/**)",
+      "Read(//tmp/claude*/**)",
+      "Edit(//tmp/claude*/**)",
+      "Bash(cd:*)",
+      "Bash(dotnet:*)",
+      "Bash(npm:*)",
+      "Bash(ng:*)",
+      "Bash(go:*)",
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "Bash(wc:*)",
+      "SlashCommand(/goal:*)",
+      "SlashCommand(/loop:*)",
+      "mcp__plugin_cenci_context7__resolve-library-id",
+      "mcp__plugin_cenci_context7__query-docs"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)",
+      "Read(~/.ssh/**)",
+      "Edit(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Edit(~/.aws/**)",
+      "Read(.env)",
+      "Edit(.env)",
+      "Read(.env.*)",
+      "Edit(.env.*)"
+    ]
+  }
+}

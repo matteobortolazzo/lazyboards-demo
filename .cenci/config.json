@@ -1,0 +1,14 @@
+{
+  "branchPattern": "feature/<id>-<description>",
+  "stack": {},
+  "guidanceLocation": "AGENTS.md",
+  "mcpServers": {
+    "context7": true
+  },
+  "autoCompactDisabled": true,
+  "pinSubagents200K": false,
+  "sandbox": {
+    "enabled": true,
+    "baseVersion": "1.2.1"
+  }
+}
